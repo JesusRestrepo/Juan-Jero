@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--titulo-->
+    <title>Ganadería Juan Jero</title>
+     <!--icono pagina web-->
+     <link rel="shortcut icon" href="https://www.picuki.com/app/controllers/proxy_image.php?url=https%3A%2F%2Finstagram.fdnk3-2.fna.fbcdn.net%2Fv%2Ft51.2885-19%2Fs320x320%2F98067424_1031961143868190_1322240037517000704_n.jpg%3Ftp%3D1%26_nc_ht%3Dinstagram.fdnk3-2.fna.fbcdn.net%26_nc_ohc%3Djm0oWLEh0WMAX-hrYxq%26edm%3DABfd0MgBAAAA%26ccb%3D7-4%26oh%3De99df4a7d60be59b77d13ea638d97f68%26oe%3D60C734B3%26_nc_sid%3D7bff83">
+    <!--editaciones css-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <!--js-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+    {% block content %}  
+    {% endblock %} 
+    </div>
+<!-- pie de pagina -->
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Opciones de contacto</h5>
+              <p class="grey-text text-lighten-4">Whatsapp: 301-6215540</p>
+              <p class="grey-text text-lighten-4">Instagram: @ganaderia_juan_jero</p>
+              <p class="grey-text text-lighten-4">Twitter: @GanaderiaJero</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Ganadería Juan Jero</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="/">Inicio</a></li>
+                <li><a class="grey-text text-lighten-3" href="/contactenos">Contáctenos</a></li>
+                <li><a class="grey-text text-lighten-3" href="/sobre-nosotros">Nosotros</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2021 Copyright Text
+          </div>
+        </div>
+        <!-- boton whatsapp -->
+        <div class="wpp">
+          <a href="https://api.whatsapp.com/send?phone=573016215540">
+              <img class="alignnone wp-image-2180 lazyloaded" src="https://sherpadigital.es/wp-content/uploads/2017/10/whatsapp-icon-150x150.png" 
+              data-src="https://sherpadigital.es/wp-content/uploads/2017/10/whatsapp-icon-150x150.png" alt="" width="50"
+               height="50" data-srcset="https://i2.wp.com/sherpadigital.es/wp-content/uploads/2017/10/whatsapp-icon.png?zoom=2&amp;resize=97%2C107&amp;ssl=1 194w, https://i2.wp.com/sherpadigital.es/wp-content/uploads/2017/10/whatsapp-icon.png?zoom=3&amp;resize=97%2C107&amp;ssl=1 291w" 
+               sizes="(max-width: 97px) 100vw, 97px" srcset="https://i2.wp.com/sherpadigital.es/wp-content/uploads/2017/10/whatsapp-icon.png?zoom=2&amp;resize=97%2C107&amp;ssl=1 194w, https://i2.wp.com/sherpadigital.es/wp-content/uploads/2017/10/whatsapp-icon.png?zoom=3&amp;resize=97%2C107&amp;ssl=1 291w">
+               <noscript><img class="alignnone wp-image-2180 lazyload" src="https://i2.wp.com/sherpadigital.es/wp-content/uploads/2017/10/whatsapp-icon.png?resize=97%2C107&#038;ssl=1" 
+                  alt="" width="97" height="107" srcset="https://i2.wp.com/sherpadigital.es/wp-content/uploads/2017/10/whatsapp-icon.png?zoom=2&amp;resize=97%2C107&amp;ssl=1 194w, https://i2.wp.com/sherpadigital.es/wp-content/uploads/2017/10/whatsapp-icon.png?zoom=3&amp;resize=97%2C107&amp;ssl=1 291w" 
+                  sizes="(max-width: 97px) 100vw, 97px" data-recalc-dims="1" /></noscript>
+          </a>
+              <!-- boton instagram -->
+              <style><!--
+                .ig-b- { display: inline-block; } .ig-b- img { visibility: hidden; } .ig-b-:hover { background-position: 0 -60px; } 
+                .ig-b-:active { background-position: 0 -120px; } .ig-b-48 { width: 60px; height: 60px; 
+                background: url(//badges.instagram.com/static/images/ig-badge-sprite-48.png) no-repeat 0 0; } @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .ig-b-48 { background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-48@2x.png); background-size: 60px 178px; } }
+              --></style>
+              <a class="ig-b- ig-b-48" href="http://instagram.com/ganaderia_juan_jero?ref=badge"><img alt="Instagram" src="//badges.instagram.com/static/images/ig-badge-48.png" /></a>
+              <!-- boton twitter-->      
+              <a href="https://twitter.com/GanaderiaJero?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @GanaderiaJero</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+                    <center><a href="http://www.websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
+<img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=297186"></a><br><a href='http://www.websmultimedia.com/contador-de-visitas-gratis'>Contador de visitas</a><br><a href='http://www.websmultimedia.com/registro-de-marcas-y-logotipos'>registro de identidad</a></center>
+      </footer>
+          
+</body>
+</html>

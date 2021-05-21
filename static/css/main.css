@@ -1,0 +1,115 @@
+html{
+    width: 100%;
+}
+
+body{
+    margin-top: 130px;
+    background-color: black;
+}
+
+.container{
+    width: 90%;
+}
+
+footer {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 10%;
+    bottom: 0;
+    background-color: goldenrod;
+    padding: 100px;
+}
+
+.maps{
+    width: 100%;
+    height: 550px;
+}
+
+.d-block{
+    width:80%;
+    height:400px;
+}
+
+.carousel-slide{
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.md-content{
+    width: 100%;
+    background-color: gray;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: right;
+    border-radius: 40px;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.st-content{
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+.wpp{
+    text-align: center;
+    position: sticky;
+}
+
+.gyrol{
+    width: 100%;
+}
+
+.row{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.col-sm{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.imgRedonda{
+    border-radius: 300px;
+    border:10px solid #666;
+}
+
+@media screen and (max-width: 400px) {
+
+    body{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .maps{
+        width: 100%;
+        height: 100px;
+    }
+    
+    footer{
+        width: 100%;
+        position: absolute;
+        margin-top: 10%;
+        bottom: 0;
+    }
+
+    .d-block{
+        width:100%;
+        height: 70%;
+    }
+
+    .row{
+        margin-top: 5px;
+    }
+
+    .gyrol{
+        width: 100%;
+    }
+}
