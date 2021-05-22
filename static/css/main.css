@@ -9,13 +9,14 @@ body{
 
 .container{
     width: 100%;
+    text-align: justify ;
 }
 
 footer {
     width: 100%;
     margin-bottom: 0px;
     margin-top: 10%;
-    bottom: 0;
+    bottom: 0%;
     background-color: goldenrod;
     padding: 100px;
 }
@@ -82,7 +83,7 @@ footer {
     border:10px solid #666;
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 200px){
 
     body{
         margin-left: 20px;
@@ -131,7 +132,7 @@ footer {
         width: 100%;
         margin-bottom: 0px;
         margin-top: 10%;
-        bottom: 0;
+        bottom: 0%;
         background-color: goldenrod;
         padding: 100px;
     }
