@@ -7,6 +7,10 @@ body{
     background-color: black;
 }
 
+header{
+    position: fixed-top;
+}
+
 .container{
     width: 100%;
     text-align: justify ;
