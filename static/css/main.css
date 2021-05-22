@@ -114,6 +114,7 @@ footer {
 
     .row{
         margin-top: 5px;
+        width: 100%;
     }
 
     .col-sm{
@@ -121,6 +122,10 @@ footer {
     }
 
     .card{
+        width: 100%;
+    }
+    
+    .card-img{
         width: 100%;
     }
 
