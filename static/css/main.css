@@ -83,7 +83,7 @@ footer {
     border:10px solid #666;
 }
 
-@media screen and (max-width: 200px){
+@media screen and (max-width: 500px){
 
     body{
         margin-left: 20px;
