@@ -68,6 +68,7 @@ footer {
 .row{
     margin-top: 15px;
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .col-sm{
@@ -95,9 +96,9 @@ footer {
     
     footer{
         width: 100%;
-        position: absolute;
         margin-top: 10%;
         bottom: 0;
+        margin-bottom: 0;
     }
 
     .d-block{
@@ -107,6 +108,14 @@ footer {
 
     .row{
         margin-top: 5px;
+    }
+
+    .col-sm{
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
     }
 
     .gyrol{
