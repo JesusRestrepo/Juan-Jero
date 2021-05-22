@@ -93,7 +93,7 @@ footer {
     border:10px solid #666;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 400px){
 
     body{
         margin-left: 20px;
@@ -108,6 +108,10 @@ footer {
         text-align: content;
         width: 20;
         height: 20;
+    }
+
+    .navbar-brand{
+        width: 50%;
     }
 
     .maps{
