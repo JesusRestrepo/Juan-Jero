@@ -11,6 +11,12 @@ header{
     position: fixed-top;
 }
 
+.d-inline-block{
+    text-align: content;
+    width: 70;
+    height: 70;
+}
+
 .container{
     width: 100%;
     text-align: justify ;
@@ -96,6 +102,12 @@ footer {
 
     .container{
         width: 100%;
+    }
+
+    .d-inline-block{
+        text-align: content;
+        width: 20;
+        height: 20;
     }
 
     .maps{
